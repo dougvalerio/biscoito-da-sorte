@@ -6,6 +6,13 @@
     100% {margin-left: 0;}
 }
 
+@keyframes animacaoFrases {
+    from { opacity: 0;}
+    to {
+        transform: translateY(0);
+        opacity: 1;}
+}
+
 :root {
     font-size: 62.5%;
 }
@@ -114,13 +121,6 @@ main {
     animation-name: animacaoFrases;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-}
-
-@keyframes animacaoFrases {
-    from { opacity: 0;}
-    to {
-        transform: translateY(0);
-        opacity: 1;}
 }
 
 .screen2 p {
